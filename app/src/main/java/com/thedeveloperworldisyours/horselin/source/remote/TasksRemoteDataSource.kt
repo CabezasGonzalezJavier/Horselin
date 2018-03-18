@@ -1,8 +1,9 @@
-package com.thedeveloperworldisyours.horselin.source
+package com.thedeveloperworldisyours.horselin.source.remote
 
 import android.os.Handler
 import com.google.common.collect.Lists
 import com.thedeveloperworldisyours.horselin.Task
+import com.thedeveloperworldisyours.horselin.source.TasksDataSource
 
 /**
  * Created by javiergonzalezcabezas on 16/3/18.
