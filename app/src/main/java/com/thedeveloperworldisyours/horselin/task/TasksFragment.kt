@@ -33,6 +33,7 @@ class TasksFragment : Fragment(), TasksContract.View {
     override var isActive: Boolean = false
         get() = isAdded
 
+
     private lateinit var noTasksView: View
     private lateinit var noTaskIcon: ImageView
     private lateinit var noTaskMainView: TextView
