@@ -22,11 +22,19 @@ import android.widget.ListView
 import android.widget.TextView
 import com.thedeveloperworldisyours.horselin.R
 import com.thedeveloperworldisyours.horselin.Task
+import com.thedeveloperworldisyours.horselin.util.showSnackBar
 
 /**
  * Created by javiergonzalezcabezas on 5/4/18.
  */
 class TasksFragment : Fragment(), TasksContract.View {
+    override fun showAddTask() {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
+    override fun showTaskDetailsUi(taskId: String) {
+        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
 
     override lateinit var presenter: TasksContract.Presenter
 
