@@ -1,4 +1,4 @@
-# horselin
+# Horselin
 Horselin
 
 <p align="center">
