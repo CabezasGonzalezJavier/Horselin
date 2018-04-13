@@ -110,10 +110,10 @@ class TasksFragment : Fragment(), TasksContract.View {
         }
 
         // Set up floating action button
-        activity.findViewById<FloatingActionButton>(R.id.fab_add_task).apply {
-            setImageResource(android.R.drawable.ic_menu_add)
-            setOnClickListener { presenter.addNewTask() }
-        }
+        //activity.findViewById<FloatingActionButton>(R.id.fab_add_task).apply {
+          //  setImageResource(android.R.drawable.ic_menu_add)
+            //setOnClickListener { presenter.addNewTask() }
+        //}
         setHasOptionsMenu(true)
 
         return root
